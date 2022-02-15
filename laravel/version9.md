@@ -8,3 +8,5 @@
 * migrations
     - foreign key
         * $table->foreignIdFor(User::class)->constrained()->onDelete('cascade');  
+
+        

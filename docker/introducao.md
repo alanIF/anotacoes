@@ -22,3 +22,18 @@ containers. Neste contexto os containers são chamados de serviços.
     sleep 5
     docker-compose exec db psql -U postgres -c '\l'
     docker-compose down
+- Volumes 
+* docker-compose.yml
+    version: '2'
+    volumes:
+    dados:
+    services:
+    db:
+    image: postgres:9.6
+    volumes:
+    # Volume dos dados
+    - dados:/var/lib/postgresql/data
+    # Scripts
+    - ./scripts:/scripts
+    - ./scripts/init.sql:/docker-entrypoint-initdb.d/init.sql
+* docker-compose exec db psql -U postgres -f /scripts/check.sql
