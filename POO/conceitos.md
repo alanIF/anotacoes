@@ -30,6 +30,7 @@ de	um	tipo	e	morre	daquele	tipo,	o	que	pode	mudar	é	a	maneira	como	nos	referimo
 # Abstração
     Nossa	empresa	tem	apenas		Diretores,Gerentes	,	 	Secretárias	,	 etc.	 Ela	 é	 uma	 classe	 que	 apenas	 idealiza	 um	 tipo,	 define	 somente um rascunho.Utilizamos	a	palavra-chave		abstract		para	impedir	que	ela	possa	ser	instanciada.	Esse	é	o	efeito direto	de	se	usar	o modificador		abstract		na	declaração	de	uma	classe. A 	 única	 diferença	 é	 que	 não	 podemos	 instanciar	 um	 objeto	 do	 tipo
 	Funcionario	,	que	já	é	de	grande	valia,	dando	mais	consistência	ao	sistema
+    Classe abstrata é uma classe que sozinha não consegue resolver sua implementação. È apenas um contrato
 # Interface
     Pela	 ideia	 base	 de	 uma	 interface,	 ela	 pode	 definir	 uma	 série	 de	 métodos,	mas	 nunca	 conter	 suas
 implementações.	Ela	só	expõe	o	que	o	objeto	deve	 fazer,	e	não	como	ele	 o	 faz,	nem	o	que	ele	 tem.
