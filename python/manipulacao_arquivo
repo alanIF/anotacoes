@@ -1,0 +1,12 @@
+arquivo    =    open('palavras.txt',    'w')
+arquivo.write('banana')
+   arquivo.close()
+arquivo    =    open('palavras.txt',    'a')
+arquivo.write('morango\n')
+* Ler arquivo
+arquivo    =    open('palavras.txt',    'r')
+arquivo    =    open('palavras.txt',    'r')
+                arquivo.read()
+arquivo    =    open('palavras.txt',    'r')
+                for    linha    in    arquivo:
+                                print(linha)
