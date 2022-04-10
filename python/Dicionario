@@ -1,0 +1,42 @@
+my_dict1.update(my_dict2) - concatenar dicionários
+keys
+keys() retorna uma lista com todas as chaves do 
+
+dicionário.
+
+values
+values() retorna uma lista com todos os valores do 
+
+dicionário.
+
+items
+items() retorna uma lista com todos os pares 
+
+chave/conteúdo do dicionário.
+
+has_key
+has_key(chave)
+
+dic.has_key(chave) é o mesmo que chave in dic.
+
+fromkeys
+Retorna um novo dicionário cujas chaves são os elementos de lista e cujos valores são todos iguais a valor. Se valor não for especificado, o default é None.
+
+copy
+Retorna um outro dicionário com os mesmos pares chave/conteúdo.
+
+clear
+Remove todos os elementos do dicionário.
+
+get
+Obtém o conteúdo de chave. Não causa erro caso a chave não exista: retorna valor. Se o valor não for especificado, chaves inexistentes retornam  None.
+
+update
+Atualiza um dicionário com os elementos de outro Os itens em dic são adicionados um a um ao dicionário original. É possível usar a mesma sintaxe da função dict para  especificar dic.
+
+popitem
+Retorna e remove um par chave/valor aleatório do dicionário. Pode ser usado para repetir sobre todos os elementos do dicionário.
+
+pop
+
+Obtém o valor correspondente a chave e remove o par chave/valor.
