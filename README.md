@@ -1,2 +1,2 @@
 # anotacoes
-Anotações sobre diferentes tecnologias.; 
+Anotações e Resumos  sobre diferentes tecnologias: seja linguagens,paradigmas, bds.
