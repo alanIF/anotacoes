@@ -1,0 +1,9 @@
+CREATE DATABASE crud_sample;
+USE crud_sample;
+
+CREATE TABLE user (
+  id INT(11) NOT NULL AUTO_INCREMENT,
+  name VARCHAR(255) NOT NULL,
+  email VARCHAR(255) NOT NULL,
+  PRIMARY KEY (id)
+);
